@@ -17,16 +17,30 @@ public class AirplaneManager
     // write add() method
 
 
-    public void displayAllAirplanes() {
-        // add code
+    public void displayAllAirplanes(ArrayList<Airplane> airplaneList)
+    {
+        for (Airplane airplane : airplaneList)
+        {
+            System.out.println(airplaneList);
+        }
     }
 
-    public void displayAllPassengerAirplanes() {
-        // add code
+    public static void displayAllPassengerAirplanes(ArrayList<PassengerAirplane> passengerAirplanes)
+    {
+        for (PassengerAirplane passengerairplane : passengerAirplanes)
+        {
+            System.out.println(passengerAirplanes);
+        }
     }
 
     //  write method getAllCargoAirplanes()
-
+    public void getAllCargoAirplanes(ArrayList<CargoAirplane> cargoAirplanes)
+    {
+        for (CargoAirplane cargoairplane : cargoAirplanes)
+        {
+            System.out.println(cargoAirplanes);
+        }
+    }
 
     // write  addPassengerNameToAirplane( airplaneId, passengerName)
 

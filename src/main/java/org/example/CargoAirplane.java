@@ -1,5 +1,7 @@
 package org.example;
 
+import java.util.ArrayList;
+
 public class CargoAirplane extends Airplane
 {
     // fields (ref. Q1)

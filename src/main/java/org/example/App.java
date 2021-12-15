@@ -6,7 +6,9 @@ import java.util.Scanner;
 
 public class App 
 {
-    public static void main( String[] args ){
+    //private AirplaneManager AirplaneManger;
+
+    public static void main(String[] args ){
         new App().start();
     }
 
@@ -33,6 +35,10 @@ public class App
 
         // write calls to methods implemented for Q3.
 
+        //AirplaneManager.displayAllAirplanes(AirplaneList);
+        //AirplaneManager.displayAllPassengerAirplanes(PassengerAirplane);
+        //AirplaneManager.getAllCargoAirplanes(CargoAirplane);
+        // code committed out because of some issues during later questions
 
         //Question 4
         // Uncomment all the code below and implement the two methods
