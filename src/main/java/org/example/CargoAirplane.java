@@ -4,11 +4,11 @@ public class CargoAirplane extends Airplane
 {
     // fields (ref. Q1)
     private int maxLoadKilos;
-    private String currentLoad;
+    private int currentLoad;
 
     // constructor
 
-    public CargoAirplane(String type, int maxLoadKilos, String currentLoad)
+    public CargoAirplane(String type, int maxLoadKilos, int currentLoad)
     {
         super(type);
         this.maxLoadKilos = maxLoadKilos;
@@ -20,7 +20,7 @@ public class CargoAirplane extends Airplane
         return maxLoadKilos;
     }
 
-    public String getCurrentLoad()
+    public int getCurrentLoad()
     {
         return currentLoad;
     }
