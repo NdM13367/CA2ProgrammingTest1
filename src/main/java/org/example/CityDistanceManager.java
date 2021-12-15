@@ -1,5 +1,7 @@
 package org.example;
 
+import java.util.Arrays;
+
 public class CityDistanceManager
 {
     String cities[] = {"Dublin", "Belfast", "Cork", "Limerick", "Galway"};
@@ -16,14 +18,18 @@ public class CityDistanceManager
     CityDistanceManager(){};    // constructor;
 
     // Q4.1
-    public int findDistanceBetween(String city1, String city2) {
-        // write code here
+    public int findDistanceBetween(String city1, String city2)
+    {
+        city1 = "Dublin";
+        city2 = "Belfast";
+        System.out.println(Arrays.deepToString(distances));
         return 0;
     }
 
     // Q4.2
-    public String findClosestCityTo(String searchCity) {
-        // write code here
+    public String findClosestCityTo(String searchCity)
+    {
+        searchCity = "Cork";
         return "unknown";
     }
 

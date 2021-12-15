@@ -4,6 +4,9 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Scanner;
 
+
+
+//Didn't have enough time for testing
 public class App 
 {
     //private AirplaneManager AirplaneManger;
